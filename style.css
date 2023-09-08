@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+html,body{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.main{
+    padding: 70px 0;
+    
+}
+
+.logo{
+    color: white;
+    font-size: 30px;
+    margin: 0 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    float: right;
+    margin: 0 60px;
+    position: relative;
+    right: 10%;
+}
+
+.navbar ul li{
+    display: inline-flex;
+    margin: 0 10px;
+}
+
+.navbar ul li a{
+    margin: 15px 25px;
+    font-size: 18px;
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+
+.listt{
+    float: left;
+}
+
+.listt a{
+    color: black;
+}
+
+button{
+    margin: 40px 0;
+    height: 50px;
+    width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    cursor: pointer;
+    right: -20%;
+    position: relative;
+}
+
+.imgg{
+    float: right;
+    border: 2px solid white;
+    margin: 150px 300px;
+    height: 150px;
+    width: auto;
+    position: relative;
+    right: 2%;
+    bottom: 15%;
+}
+
+.h1{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    bottom: 250%;
+    left: 125%;
+    text-align: center;
+}
+
+.text{
+    height: 10vh;
+    width: 40vw;
+    padding-top: 370px;
+}
+
+.imggg{
+    border: 2px solid white;
+    height: 150px;
+    width: auto;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textt{
+    height: 10vh;
+    width: 50vw;
+    padding-top: 370px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h2{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    bottom: 60%;
+}
+
+.imgggg{
+    float: right;
+    border: 2px solid white;
+    margin: 150px 300px;
+    height: 150px;
+    width: auto;
+    position: relative;
+    right: 2%;
+    bottom: 15%;
+}
+
+.h3{
+    color: white;
+}

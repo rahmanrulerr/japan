@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,body{
+    background-color: blanchedalmond;
+}
+
+.kanji{
+    text-align: center;
+}
+
+.kanan{
+    margin: 0 30px;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+button a{
+    color: black;
+}
